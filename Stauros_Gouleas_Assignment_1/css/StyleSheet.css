@@ -1,0 +1,75 @@
+﻿
+#menu {
+    width: 190px;
+}
+
+#menu a {
+    background-color: lightgrey;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: grey;
+    cursor: pointer;
+    font-weight: bold
+}
+
+#menu .selected {
+    background-color: #1a2f2f;
+    color: azure
+}
+
+#menu .selected:hover {
+    background-color: darkslategray;
+    font-weight: bold
+}
+
+#welcome {
+    position: absolute;
+    left: 30%;
+    top: 30px;
+    
+}
+#welcome *{
+    text-align:center;
+}
+
+
+
+tr .Sortable:hover {
+    background-color: rgb(190 169 169 / 0.76);
+    color: black;
+    cursor: pointer;
+}
+
+
+tr:nth-child(even) {
+    background-color: lightskyblue;
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.tables {
+    position: absolute;
+    left: 30%;
+    top: 30px;
+}
+
+
+body {
+    background-image: url("images/backgwood.png");
+    background-size: cover;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}
